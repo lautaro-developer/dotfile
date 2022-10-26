@@ -1,0 +1,9 @@
+. $GLOBALAUTOSTART
+# Mis apps de inicio
+nitrogen --restore &
+picom &
+clipit &
+redshift &
+/home/ruben/polybar/./launch.sh --forest &
+/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
+xfce4-power-manager &
